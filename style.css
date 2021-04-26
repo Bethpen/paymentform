@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("/banner.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.wrapper {
+  background-color: rgba(5, 5, 5, 0.877);
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+h2 {
+  text-decoration: underline red;
+  text-align: center;
+}
+
+h4 {
+  width: fit-content;
+  text-align: left;
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  border-bottom-right-radius: 3px;
+  padding-bottom: 0.3rem;
+  padding-right: 0.3rem;
+  margin-left: 0;
+}
+
+.input-group {
+  width: 80%;
+}
+
+input {
+  width: 80%;
+  margin-top: 0.3rem;
+  padding: 0.3rem;
+  border-radius: 3px;
+  border: none;
+  margin-left: 1rem;
+}
+
+.radio {
+  width: fit-content;
+  margin-top: 0;
+  padding: 0;
+}
+
+input::placeholder {
+  color: rgb(245, 157, 157);
+  font-size: xx-small;
+  font-style: italic;
+}
+
+.fa {
+  color: rgb(250, 67, 67);
+  margin-left: 0.1rem;
+}
+
+button,
+select {
+  background-color: rgba(211, 1, 1, 0.815);
+  color: white;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  padding: 0.2rem;
+  border: none;
+  border-radius: 3px;
+}
+
+button {
+  padding: 0.5rem;
+}
